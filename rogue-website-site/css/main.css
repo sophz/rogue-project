@@ -1,0 +1,94 @@
+/**** BASE STYLES ****/
+@font-face{
+	font-family: 'Wisdom Script';
+	src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+body {
+  font-family:'Montserrat', sans-serif;
+}
+
+/**** GRID ****/
+
+.full-width {
+  width: 1200px;
+  margin:auto;
+
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+/**** HEADER ****/
+
+
+header h1 {
+  font-size: 30px;
+  font-weight: bolder;
+  text-transform: uppercase;
+
+}
+nav {
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  color: #77a466;
+}
+span {
+  color: #77a466;
+}
+
+/**** ABOUT ****/
+
+#about .full-width {
+  padding: 40px, 0;
+}
+
+#about h3 {
+  font-size: 18px;
+}
+
+#about p {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/**** WORK ****/
+
+#work h4 {
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+#work #specials {
+  font-size: 16px;
+  line-height:20px;
+}
+
+#work #reviews {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+#work #contact {
+  font-size: 16px;
+  line-height:24px;
+}
+/**** FOOTER ****/
+
+footer #ingredients {
+
+}
